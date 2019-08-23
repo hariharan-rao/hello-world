@@ -1,7 +1,11 @@
 #include<iostream>
+#include<string>
 
 int main
 {
-  cout<<"Hello World\n";
+  int a;
+  cout<<"\nEnter the value for a: ";
+  cin>>a;
+  cout<<"Hello World, the value of a is\n"<<a;
   return 0;
 }
