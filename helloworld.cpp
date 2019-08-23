@@ -1,7 +1,12 @@
 #include<iostream>
+#include<string>
+using namespace std;
 
-int main
+int main()
 {
-  cout<<"Hello World\n";
+  int a;
+  cout<<"\nEnter the value for a: ";
+  cin>>a;
+  cout<<"\nHello World, the value of a is "<<a;
   return 0;
 }
